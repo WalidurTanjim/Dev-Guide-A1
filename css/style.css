@@ -61,45 +61,46 @@ header .headerSection button{
 
 
 
-/* ===== webDevelopmentSection styles start ===== */
-main .webDevelopmentSection{
+/* ===== webDevelopmentSection styles starts ===== */
+.webDevelopmentSection{
     width: 940px;
     margin: 0 auto;
     padding: 80px;
     margin-top: 70px;
+    background: rgba(13, 19, 33, 0.02);
     /* border: 1px solid red; */
 }
-main .webDevelopmentSection .webDevelopmentSectionHeading{
+.webDevelopmentSection .webDevelopmentSectionHeading{
     text-align: center;
 }
-main .webDevelopmentSection .webDevelopmentSectionHeading h1{
+.webDevelopmentSection .webDevelopmentSectionHeading h1{
     font-size: 25px;
     font-weight: 700;
 }
-main .webDevelopmentSection .webDevelopmentSectionHeading p{
+.webDevelopmentSection .webDevelopmentSectionHeading p{
     margin: 20px 0;
     color: rgb(45, 51, 65);
 }
 
-main .webDevelopmentSection .container{
+.webDevelopmentSection .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 0;
     /* border: 1px solid green; */
 }
-main .webDevelopmentSection .container .contentDiv{
+.webDevelopmentSection .container .contentDiv{
     padding-right: 30px;
 }
-main .webDevelopmentSection .container h2{
+.webDevelopmentSection .container h2{
     font-weight: 600;
     color: rgba(13, 19, 33, 0.7);
 }
-main .webDevelopmentSection .container p{
+.webDevelopmentSection .container p{
     margin: 15px 0;
     color: rgb(45, 51, 65);
 }
-main .webDevelopmentSection .container a{
+.webDevelopmentSection .container a{
     padding: 12px 25px;
     border: 1px solid gray;
     display: inline-block;
@@ -110,17 +111,118 @@ main .webDevelopmentSection .container a{
     color: rgb(13, 19, 33);
 }
 
-main .webDevelopmentSection .container .imageDiv{
+.webDevelopmentSection .container .imageDiv{
     width: 250px;
 }
-main .webDevelopmentSection .container .imageDiv img{
+.webDevelopmentSection .container .imageDiv img{
     width: 100%;
 }
 
-main .webDevelopmentSection .webDevSection2{
+.webDevelopmentSection .webDevSection2{
     flex-direction: row-reverse;
 }
-main .webDevelopmentSection .webDevSection2 .contentDiv{
+.webDevelopmentSection .webDevSection2 .contentDiv{
     padding-left: 30px;
     padding-right: 0;
 }
+.webDevelopmentSection .webDevSection3{
+    padding-bottom: 0;
+}
+/* ===== webDevelopmentSection styles ends ===== */
+
+
+
+
+
+/* ===== currentTargetSection styles starts */
+.currentTargetSection{
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px;
+    margin-top: 70px;
+    /* border: 1px solid red; */
+}
+.currentTargetSection .webDevelopmentSectionHeading{
+    text-align: center;
+}
+.currentTargetSection .webDevelopmentSectionHeading h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.currentTargetSection .webDevelopmentSectionHeading p{
+    margin: 20px 0;
+    color: rgb(45, 51, 65);
+}
+
+
+.currentTargetSection .items{
+    margin-top: 40px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.currentTargetSection .items .item{
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    padding: 20px;
+}
+.currentTargetSection .items .item div{
+    margin-top: 15px;
+}
+.currentTargetSection .items .item img{
+    width: 55px;
+}
+.currentTargetSection .items .item h2{
+    font-weight: 600;
+}
+.currentTargetSection .items .item p{
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(45, 51, 65);
+}
+.currentTargetSection .items .item a{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(45, 51, 65);
+    text-decoration: underline;
+}
+
+.currentTargetSection .items .html5{
+    background-color: rgb(248, 246, 245);
+}
+.currentTargetSection .items .css3{
+    background-color: rgb(242, 245, 252);
+}
+.currentTargetSection .items .js{
+    background-color: rgb(249, 250, 236);
+}
+/* ===== currentTargetSection styles ends */
+
+
+
+
+
+/* ===== footer styles starts */
+footer{
+    padding: 35px 120px;
+    background: rgba(13, 19, 33, 0.03);
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer section h2{
+    font-size: 17px;
+}
+footer section ul{
+    display: flex;
+    align-items: center;
+}
+footer section ul li{
+    padding: 10px;
+}
+footer section ul li a img{
+    width: 30px;
+}
+/* ===== footer styles ends */
