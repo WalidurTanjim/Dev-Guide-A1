@@ -230,9 +230,70 @@ header .headerSection button{
 
 
 
+
+
+
+/* ===== nextTargetSection styles starts ===== */
+.nextTargetSection{
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px;
+    /* margin-top: 70px; */
+    /* margin-bottom: 70px; */
+    /* border: 1px solid red; */
+}
+.nextTargetSection .nextTargetSectionHeading{
+    text-align: center;
+}
+.nextTargetSection .nextTargetSectionHeading h2{
+    font-weight: 600;
+    /* color: rgba(13, 19, 33, 0.7); */
+}
+.nextTargetSection .nextTargetSectionHeading p{
+    margin: 15px 0;
+    color: rgb(45, 51, 65);
+}
+
+.nextTargetSection .targetContainer{
+    margin-top: 70px;
+}
+
+.nextTargetSection .targetContainer .target{
+    display: flex;
+    align-items: center;
+    padding: 25px 15px;
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.nextTargetSection .targetContainer .target img{
+    width: 70px;
+}
+.nextTargetSection .targetContainer .target div{
+    margin-left: 20px;
+}
+.nextTargetSection .targetContainer .target h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.nextTargetSection .targetContainer .target p{
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+}
+.nextTargetSection .targetContainer .target a{
+    font-weight: 600;
+    text-decoration: underline;
+    color: rgb(82, 81, 81);
+}
+/* ===== nextTargetSection styles ends ===== */
+
+
+
 /* needSupport styles starts */
 .needSupport{
-    width: 1140px;
+    width: 940px;
     height: 310px;
     margin: 0 auto;
     border-radius: 20px;
