@@ -67,7 +67,7 @@ header .headerSection button{
     margin: 0 auto;
     padding: 80px;
     margin-top: 70px;
-    background: rgba(13, 19, 33, 0.02);
+    background: rgba(13, 19, 33, 0.048);
     /* border: 1px solid red; */
 }
 .webDevelopmentSection .webDevelopmentSectionHeading{
@@ -129,6 +129,36 @@ header .headerSection button{
     padding-bottom: 0;
 }
 /* ===== webDevelopmentSection styles ends ===== */
+
+
+
+
+
+
+/* ===== inspiration styles starts ===== */
+.inspirationSection{
+    width: 940px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.inspirationSection .inspirationSectionHeading{
+    text-align: center;
+}
+.inspirationSection .inspirationSectionHeading h2{
+    font-weight: 600;
+    /* color: rgba(13, 19, 33, 0.7); */
+}
+.inspirationSection .inspirationSectionHeading p{
+    margin: 20px 0;
+    color: rgb(45, 51, 65);
+}
+#iFrame{
+    border-radius: 10px;
+    margin-top: 40px;
+}
+/* ===== inspiration styles ends ===== */
+
 
 
 
@@ -255,8 +285,9 @@ header .headerSection button{
 
 /* ===== footer styles starts */
 footer{
+    margin-top: 80px;
     padding: 35px 120px;
-    background: rgba(13, 19, 33, 0.03);
+    background-color: rgba(221, 221, 224, 0.534);
 }
 footer section{
     display: flex;
