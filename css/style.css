@@ -200,6 +200,57 @@ header .headerSection button{
 
 
 
+/* needSupport styles starts */
+.needSupport{
+    width: 1140px;
+    height: 310px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: url('/assets/handshake.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(13, 19, 33, 0.6);
+    background-blend-mode: overlay;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.needSupport .needSupportHeading{
+    width: 650px;
+}
+.needSupport .needSupportHeading .suggestionDiv{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.needSupport .needSupportHeading .suggestionDiv #inputField{
+    width: 100%;
+    margin-right: 10px;
+    padding: 9px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.needSupport .needSupportHeading .suggestionDiv .suggestionBtn{
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 5px;
+    /* border: none; */
+    /* outline: none; */
+}
+.needSupport .needSupportHeading h1{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 25px;
+}
+.needSupport .needSupportHeading p{
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(193, 200, 216);
+}
+/* needSupport styles ends */
+
 
 
 /* ===== footer styles starts */
