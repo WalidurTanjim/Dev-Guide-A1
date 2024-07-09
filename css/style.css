@@ -86,8 +86,10 @@ header .headerSection button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
+    padding: 30px 50px;
+    margin: 30px 0;
     /* border: 1px solid green; */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.01))
 }
 .webDevelopmentSection .container .contentDiv{
     padding-right: 30px;
@@ -120,14 +122,15 @@ header .headerSection button{
 
 .webDevelopmentSection .webDevSection2{
     flex-direction: row-reverse;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.01))
 }
 .webDevelopmentSection .webDevSection2 .contentDiv{
     padding-left: 30px;
     padding-right: 0;
 }
-.webDevelopmentSection .webDevSection3{
+/* .webDevelopmentSection .webDevSection3{
     padding-bottom: 0;
-}
+} */
 /* ===== webDevelopmentSection styles ends ===== */
 
 
@@ -168,7 +171,7 @@ header .headerSection button{
 .currentTargetSection{
     width: 940px;
     margin: 0 auto;
-    padding: 80px;
+    padding: 80px 0;
     margin-top: 70px;
     /* border: 1px solid red; */
 }
@@ -237,9 +240,7 @@ header .headerSection button{
 .nextTargetSection{
     width: 940px;
     margin: 0 auto;
-    padding: 80px;
-    /* margin-top: 70px; */
-    /* margin-bottom: 70px; */
+    padding: 80px 0;
     /* border: 1px solid red; */
 }
 .nextTargetSection .nextTargetSectionHeading{
