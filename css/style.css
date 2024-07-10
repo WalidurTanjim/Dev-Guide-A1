@@ -18,8 +18,8 @@ li{
 }
 
 
-/* ===== header styles starts ===== */
-header{
+/* ===== .bannerContainer styles starts ===== */
+.bannerContainer{
     width: 100%;
     height: 650px;
     background-image: url('../assets/Hero-bg.png');
@@ -31,24 +31,24 @@ header{
     align-items: center;
 }
 
-header .headerSection{
+.bannerContainer .banner{
     width: 650px;
     text-align: center;
 }
-header .headerSection img{
+.bannerContainer .banner img{
     width: 240px;
     margin-bottom: 20px;
 }
-header .headerSection h1{
+.bannerContainer .banner h1{
     font-size: 30px;
     font-weight: 700;
 }
-header .headerSection p{
+.bannerContainer .banner p{
     /* font-size: 16px; */
     margin: 20px 0;
     color: rgb(45, 51, 65);
 }
-header .headerSection button{
+.bannerContainer .banner button{
     padding: 12px 25px;
     border: none;
     outline: none;
@@ -298,7 +298,7 @@ header .headerSection button{
     height: 310px;
     margin: 0 auto;
     border-radius: 20px;
-    background-image: url('../assets/hands.jpg');
+    background-image: url('./assets/hands.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
