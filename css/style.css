@@ -299,10 +299,10 @@ li{
     margin: 0 auto;
     border-radius: 20px;
     /* background-image: url('../assets/hands.jpg'); */
-    background-image: url('../assets/hands.jpg');
+    background-image: url("../assets/hands.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     background-color: rgba(13, 19, 33, 0.3);
     background-blend-mode: overlay;
 
