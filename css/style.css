@@ -102,11 +102,11 @@ header .headerSection button{
     margin: 15px 0;
     color: rgb(45, 51, 65);
 }
-.webDevelopmentSection .container button{
+.webDevelopmentSection .container .webDevBtn{
     padding: 12px 25px;
     /* border: 1px solid gray; */
     display: inline-block;
-    outline: none;
+    /* outline: none; */
     border-radius: 5px;
     color: #ffffff;
     font-weight: 500;
